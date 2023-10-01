@@ -1,9 +1,9 @@
-name: ci for portfolio
+name: cicd for blog app
 
 on:
   push:
     branches:
-      - "master"
+      - "main"
 
 jobs:
   build:
